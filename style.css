@@ -1,0 +1,332 @@
+
+body {
+    width: 1440px;
+    min-width: 320px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section.Gym_header {
+    background: #E43071;
+    width: 100%;
+    height: calc(3.3vw + 53px);
+}
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .Goodlyfe {
+    font-size: calc(1.6vw + 17px);
+    font-weight: 800;
+    line-height: 110%;
+    text-align: center;
+    background: linear-gradient(to right, white 50%, lightpink 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: calc(1vw + 17px);
+    margin-left: calc(1.8vw + 10px);
+    margin-right: 172px;
+}
+
+.header h4 {
+font-size: 16px;
+font-weight: 400;
+line-height: 113%;
+text-align: center;
+margin-top: 44px;
+color: #FFFFFF;
+}
+img.search_icn {
+    position: absolute;
+    left: 1170px;
+    width: calc(0.4vw + 14px);
+    height: calc(0.4vw + 14px);
+    margin-top: calc(1.7vw + 20px);
+    
+}
+.white_hdr {
+    width: 166px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 41px;
+    left: 1233px;
+    gap: 0px;
+    border-radius: 200px;
+    opacity: 0px;
+    border: 0px solid;  
+    color: #E43071;
+    line-height: 109%;
+    font-size: 16px;
+    background: #FFFFFF;
+}
+
+@media (max-width:320px) { 
+     .header h4 {
+        display: none;
+     } 
+     .white_hdr {
+        display: none;
+     } 
+}
+
+
+/* Welcome start */
+.Photo_gym {
+    position: relative;
+    background-image: url('./img/cathy-pham-3jAN9InapQI-unsplash\ 1@3x.png');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    
+}
+.Photo_gym h1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: calc(3.4vw + 21px);
+font-weight: 700;
+line-height: 111%;
+text-align: center;
+color: #FFFFFF;
+max-width: 624px;
+display: block;
+}
+@media (max-width:320px) {
+    .Photo_gym h1 {
+        max-width: 624px;
+    }
+}
+
+.Photo_gym .purpleBtn  {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white; 
+    width: calc(2.6vw + 200px);
+    height: calc(1.1vw + 53px);
+    background: #E43071;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 231%;
+    margin-top: calc(-1.3vw + 27px);
+
+
+}
+/* Welcome end */
+
+
+/* Gym Info start */
+section.Gym_Info {
+    padding: 141px 94px 140px 122px;
+    background-color: #FFFFFF;
+
+}
+.Info {
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    gap: 200px;
+    padding: 0px;
+}
+@media (max-width:320px){
+.Info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 200px;
+    padding: 0px;
+}}
+.Gender {
+    max-height: 200px;
+    position: relative;
+    width: calc(77vw + 39px);
+    height: calc(-23.6vw + 842px);
+}
+.Gender .female{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    bottom: 0; 
+    width: calc(11.3vw + 110px); 
+    height: calc(16.8vw + 164px);
+    transition: transform 0.3s ease; 
+}
+.Gender .male {
+    transform: translateX(0%);
+    width: calc(20.4vw + 111px);
+    height: calc(18vwvw + 190px);
+    margin-top: 0px;
+}
+
+.Info_wrapper h3 {
+font-size: 40px;
+font-weight: 700;
+line-height: calc(1.4vw + 43px);
+margin-top: 103px;
+text-align: start;
+gap: 0px;
+opacity: 0px;
+color: #E43071;
+
+}
+.Info_wrapper p {
+    font-size: 16px;
+    line-height: calc(0.6vw + 30px);
+    text-align: left;
+    width: 540px;
+
+}
+.Info_wrapper .FAQ_btn {
+width: calc(-6vw + 306px);
+height: calc(-1vw + 71px);
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border: 2px solid #E43071;
+border-radius: 50px;
+background-color: #FFFFFF;
+color: #E43071;
+
+}
+
+/* Gym Info end */
+
+/* Progress start */
+.Progress_wrapper {
+    position: relative;
+    background-image: url('./img/hayley-kim-design-eot-ka5dM7Q-unsplash\ 1@3x.png');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    
+}
+.Progress_wrapper h2 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-30%, -55%);
+    font-size: calc(1.6vw + 37px);
+    font-weight: 700;
+    line-height: calc(3.9vw + 33px);
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    }
+.Progress_wrapper p {
+    position: absolute;
+    top: 46%;
+    left: 38%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.1vw + 16px);
+    font-weight: 600;
+    line-height: 136%;
+    text-align: center;
+    color: #FFFFFF;
+    width: calc(24.6vw + 178px);
+
+    }
+
+    .Progress_wrapper .purpleBtn_2  {
+        position: absolute;
+        top: 62%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        color: white; 
+        width: calc(-4.5vw + 301px);
+        height: calc(1.1vw + 53px);
+        background: #E43071;
+        border-radius: 50px;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 231%;
+        margin-top: calc(-1.3vw + 27px);
+    
+    
+    }
+
+/* Progress end */
+
+/* Facilities start */
+section.Facilities {
+    padding: 155px 224px 79px 108px;
+    background-color: #FFFFFF;
+
+}
+.Facilities_container {
+    display: flex;
+    flex-direction: row;
+    gap: 145px;
+    padding: 0px;
+}
+@media  (max-width:400px){
+    .Facilities_container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+        padding: 0px;
+    }
+    }
+.Photos_gymroom {
+    position: relative;
+    width: calc(77vw + 39px);
+height: 200px;
+}
+.Photos_gymroom .weights {
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    bottom: 0; 
+    width: calc(20.6vw + 125px); 
+    height: calc(13.7vw + 84px);
+    transition: transform 0.3s ease; 
+}
+.Photos_gymroom .gymRoom {
+    transform: translateX(0%);
+    width: calc(21.6vw + 133px);
+    height: calc(14.4vwvw + 89px);
+    margin-top: 10px;
+}
+
+.facilities_wrapper h3 {
+font-size: 40px;
+font-weight: 700;
+line-height: calc(1.4vw + 43px);
+margin-top: 97px;
+text-align: start;
+gap: 0px;
+opacity: 0px;
+color: #E43071;
+
+}
+.facilities_wrapper p {
+    font-size: 16px;
+    line-height: calc(0.6vw + 30px);
+    text-align: left;
+    width: 540px;
+
+}
+.facilities_wrapper .Learn_Btn {
+width: calc(-6vw + 306px);
+height: calc(-1vw + 71px);
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border: 2px solid #E43071;
+border-radius: 50px;
+background-color: #FFFFFF;
+color: #E43071;
+
+}
+
+/* Facilities end */
